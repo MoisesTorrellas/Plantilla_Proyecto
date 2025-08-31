@@ -6,7 +6,8 @@ $routes = [
     "roles" => "roles",
     "bitacora" => "bitacora",
     "recuperar" => "recuperar",
-    "productos" => "productos"
+    "productos" => "productos",
+    "categoria_productos" => "categoria_productos"
 ];
 
 function manejarRuta($ruta)

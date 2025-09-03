@@ -12,6 +12,7 @@ define('_MD_Bitacora_',3);
 define('_MD_Inicio_',4);
 define('_MD_Cerrar_',5);
 define('_MD_Productos_',6);
+define('_MD_Categoria_Productos_',7);
 /* permisos */
 define('_PRM_',1);
 /* Administrador */

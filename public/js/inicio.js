@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $("#cedula").on("keypress", function (e) {
         validarkeypress(/^[0-9\b]*$/, e);
     });
@@ -26,7 +27,7 @@ $(document).ready(function () {
 
     $('#ingreso').on('click', function () {
         if (validarEnvio()) {
-            var datos = new FormData($('#f')[0]);
+            const datos = new FormData($('#f')[0]);
             datos.append('accion', 'inicio');
             enviaAjax(datos);
         }
